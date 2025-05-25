@@ -15,13 +15,13 @@ textarea {
 
 /* summernote button */
 .note-btn-group .note-btn {
-  background-color: darkseagreen;
+  background-color: rgb(255, 255, 255);
   border: 0px;
   font-size: 15px !important;
 }
 
 .note-toolbar {
-  background-color: darkseagreen !important;
+  background-color: rgb(255, 255, 255) !important;
 }
 
 .note-editor.note-airframe,
@@ -32,7 +32,7 @@ textarea {
 /* Bend toolbar with navbar */
 .note-toolbar.panel-heading {
   padding-left: 1%;
-  background-color: darkseagreen;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Make larger buttons in the toolbar*/
@@ -46,8 +46,8 @@ textarea {
   margin: auto;
   background-color: white;
   border: 0px;
-  background-color: darkseagreen !important;
-  border-radius: 15px 15px 0px 0px;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 5px 5px 0px 0px;
   margin-top: 1%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -75,7 +75,7 @@ textarea {
   font-size: xxx-large;
   font-family: monospace;
   font-weight: bold;
-  color: green;
+  color: rgb(37, 103, 233);
   margin-bottom: 0px;
 }
 

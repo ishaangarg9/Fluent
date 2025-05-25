@@ -255,3 +255,9 @@ if __name__ == '__main__':
     else:
         app.run(port=3999, debug=True)
 
+@app.after_request
+def add_header(response):
+    # Allow all domains to embed this Flask app (for dev purposes only)
+    response.headers['X-Frame-Options'] = 'ALLOWALL'
+    response.headers['Content-Security-Policy'] = "frame-ancestors *"
+    return response
